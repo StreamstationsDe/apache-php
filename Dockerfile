@@ -1,4 +1,4 @@
-FROM php:8.4.8-apache
+FROM php:8.4.10-apache
 
 RUN apt-get update && apt-get dist-upgrade -y \
   && apt-get clean \
